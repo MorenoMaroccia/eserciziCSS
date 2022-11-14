@@ -1,0 +1,19 @@
+section {
+    border: 1px solid grey;
+    width: 300px;
+   
+}
+
+.p1 {
+    border: 1px solid grey;
+}
+
+div {
+    border: 1px solid grey;
+}
+
+a {
+    color: blue;
+    margin: 20px;
+    text-align: cen;
+}
