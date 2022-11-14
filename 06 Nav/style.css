@@ -1,0 +1,49 @@
+html {
+    background-color: black
+}
+section {
+    border: 1px solid white;
+    background-color: rgb(48, 47, 47);
+    padding: 15px;
+    margin: 10px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:nth-child(3) {
+    color: rgb(189, 189, 189);
+}
+
+select {
+     background-color: rgb(48, 47, 47);
+    color: rgb(189, 189, 189);
+    border: 1px solid rgb(48, 47, 47);
+}
+
+.disabled {
+    color: rgb(107, 106, 106);
+}
+
+button:hover {
+    
+    background: linear-gradient(green, white);
+}
+button {
+    border: 1px solid green;
+    color: green;
+    background-color: black;
+    border-radius: 2px;
+}
+
+#serch {
+    border-radius: 2px;
+    
+}
+ .barra {
+    float: right;
+ }
