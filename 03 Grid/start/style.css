@@ -1,0 +1,136 @@
+section {
+    border: 2px solid black;
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(6, 50px);
+    grid-template-areas:  
+    "zero zero zero zero"
+    "piu meno per diviso"
+    "sette otto nove uguale"
+    "quattro cinque sei uguale "
+    "uno due tre uguale"
+    "zero1 punto AC uguale";
+    border-radius: 10px;
+}
+
+div {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+
+
+.zero {
+    grid-area: zero;
+    background-color: rgb(72, 70, 78);
+    color: white;
+    text-align: right;
+}
+
+.piu {
+    grid-area: piu;
+    text-align: center;
+    background-color: rgb(218, 216, 216);
+
+}
+
+.meno {
+    grid-area: meno;
+    text-align: center;
+    background-color: rgb(218, 216, 216);
+}
+.per {
+    grid-area: per;
+    text-align: center;
+    background-color: rgb(218, 216, 216);
+}
+
+.diviso {
+    grid-area: diviso;
+    text-align: center;
+    background-color: rgb(218, 216, 216);
+}
+
+.sette {
+    grid-area: sette;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
+
+.diviso {
+    grid-area: diviso;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
+
+.otto {
+    grid-area: otto;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
+.nove {
+    grid-area: nove;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
+
+.uguale {
+    grid-area: uguale;
+    text-align: center;
+    background-color: rgb(221, 94, 94);
+}
+
+.quattro {
+    grid-area: quattro;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
+
+.cinque {
+    grid-area: cinque;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
+
+.sei {
+    grid-area: sei;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
+
+.uno{
+    grid-area: uno;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
+
+.due {
+    grid-area: due;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
+
+.tre {
+    grid-area: tre;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
+
+.zero1 {
+    grid-area: zero1;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
+
+.punto {
+    grid-area: punto;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
+
+.AC {
+    grid-area: AC;
+    text-align: center;
+    background-color: rgb(243, 241, 241);
+}
