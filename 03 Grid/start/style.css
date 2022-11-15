@@ -2,8 +2,8 @@ section {
     border: 2px solid black;
     width: 200px;
     display: grid;
-    grid-template-columns: repeat(4, 50px);
-    grid-template-rows: repeat(6, 50px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-template-areas:  
     "zero zero zero zero"
     "piu meno per diviso"
