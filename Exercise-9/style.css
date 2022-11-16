@@ -1,0 +1,23 @@
+.foto1 {
+    max-width: 375px;
+}
+
+
+
+@media (max-width: 768px) {
+    .foto1 {
+        max-width: 786px;
+    }
+    .foto2 {
+        max-width: 786px;
+    }
+}
+
+@media (max-width: 375px) {
+    .foto2 {
+    max-width: 357px;
+}
+.foto1 {
+    max-width: 375px;
+}
+}
