@@ -1,7 +1,27 @@
 body {
     display: flex;
+    flex-wrap: wrap;
+}
+ #yellow {
+    order: 1;
+  }
 
+#red {
+    order: 2;
 }
+  
+#green {
+    order: 3;
+}
+  
 #orange {
+    background-color: #ffc788;
     flex: 1 1 200px;
+    justify-content: right;
+    order: 4;
 }
+  
+#blue {
+   order: 5;
+}
+  
