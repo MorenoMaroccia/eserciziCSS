@@ -29,7 +29,7 @@ section {
 }
 .avatar {
      margin: 50px;
-     justify-content: flex-end;
+     justify-self: end;
      
 }
 
