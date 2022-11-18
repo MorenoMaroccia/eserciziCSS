@@ -1,23 +1,113 @@
-.foto1 {
-    max-width: 375px;
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.container {
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    width: 900px;
+    height: 400px;
+    justify-content: space-around;
+    gap: 20px;
+    border: 1px solid white;
+   border-radius: 20px;
+}
+
+.item {
+    display: grid;
+    grid-template-rows: 1fr 5fr 2fr;
+    background-color: grey;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    height: 100%;
+    width: 100%;    
 }
 
 
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: space-between;
 
-@media (max-width: 768px) {
-    .foto1 {
-        max-width: 786px;
+    
+    
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    
+
+}
+h3 {
+    
+    margin-top: 2px;
+    margin: 0px;
+}
+
+p {
+    margin-top: 2px;
+    margin: 2px 0px 0px;
+    color: white;
+}
+.name {
+    justify-self: start;
+    
+}
+
+.puntini {
+    justify-self: end;
+    align-self: center;
+ 
+}
+.gatto {
+    height: 100%;
+    width: 100%;
+}
+ .divGatto {
+    height: 100%;
+ }
+#item1 {
+    grid-area: "item1";
+ }
+ #item2 {
+    grid-area: "item2";
+ }
+ #item3 {
+    grid-area: "item3";
+ }
+
+
+@media screen and (max-width: 768px) {
+   
+ .container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "item1 item2"
+    "item3";
+ }
+}
+
+@media screen and (max-width: 375px) {
+   
+    .container {
+       display: grid;
+       grid-template-rows: 1fr 1fr 1fr;
+       grid-template-columns: 1fr;
+       grid-template-areas: 
+       "item1"
+       "item2"
+       "item3";
     }
-    .foto2 {
-        max-width: 786px;
-    }
-}
-
-@media (max-width: 375px) {
-    .foto2 {
-    max-width: 357px;
-}
-.foto1 {
-    max-width: 375px;
-}
-}
+   }
